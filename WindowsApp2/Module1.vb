@@ -22,4 +22,8 @@ Module Module1
         End Try
 
     End Function
+
+    Friend Sub hello()
+        MsgBox("hello")
+    End Sub
 End Module
